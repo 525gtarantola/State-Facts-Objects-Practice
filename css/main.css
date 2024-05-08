@@ -78,7 +78,7 @@ h1 {
 	margin: 1em 0 0;
 	text-align: center;
 }
-.info-holder {
+.info-holderr {
 	display: inline-block;
 	float: left;
 }
@@ -86,10 +86,10 @@ h2 {
 	font-weight: 400;
 	margin-top: 0;
 }
-.info-holder p {
+.info-holderr p {
 	margin: 0.5em 0;
 }
-.info-holder strong {
+.info-holderr strong {
 	display: inline-block;
 	font-size: 0.8em;
 	font-weight: 900;
@@ -140,10 +140,10 @@ h2 {
 	 Media Queries
 	 ========================================================================== */
 @media (max-width: 755px) {
-	.info-holder {
+	.info-holderr {
 		margin-top: 1.25em;
 	}
-	.info-holder strong {
+	.info-holderr strong {
 		text-align: left;
 	}
 }
@@ -164,7 +164,7 @@ h2 {
 		float: none;
 		display: block;
 	}
-	.info-holder strong {
+	.info-holderr strong {
 		display: block;
 	}
 }
